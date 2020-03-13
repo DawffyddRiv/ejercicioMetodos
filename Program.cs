@@ -10,12 +10,12 @@ namespace ejercicioMetodos
         }
         static void Main(string[] args)
         {
-            //Se tiene que tomar en cuenta que el método main es el método de entrada
+            //Se tiene que tomar en cuenta que el método main es el método de entrada y por el cual entran los demás
             mensajeEnpantalla();
             Console.WriteLine("Hola mundo,vamos a realizar un pequeño ejercicio de métodos!");
             Console.WriteLine("Mensaje desde el metodo Main");
             mensajeEnpantalla();
-            segundoMensaje();//instanciando el método segundo mensaje
+            segundoMensaje();//instanciando el método segundoMensaje
             sumaNumeros(4,8);//Al instanciarla es obligatorio introducir los parámetros y del tipo que pida el método
         }
         static void mensajeEnpantalla()
