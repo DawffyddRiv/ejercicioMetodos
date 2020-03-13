@@ -15,8 +15,8 @@ namespace ejercicioMetodos
             Console.WriteLine("Hola mundo,vamos a realizar un pequeño ejercicio de métodos!");
             Console.WriteLine("Mensaje desde el metodo Main");
             mensajeEnpantalla();
-            segundoMensaje();//instanciando el método segundoMensaje
-            sumaNumeros(4,8);//Al instanciarla es obligatorio introducir los parámetros y del tipo que pida el método
+            segundoMensaje();//invocando el método segundoMensaje
+            sumaNumeros(4,8);//Al invocar el método sumaNumeros es obligatorio introducir los parámetros y del tipo que pida el método
         }
         static void mensajeEnpantalla()
         {
